@@ -1,0 +1,120 @@
+/* Dialog Content */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 10px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #333;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 0.9em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #1976d2; /* MUI primary color */
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.5);
+}
+
+/* Error Messages */
+.error {
+  color: #d32f2f; /* Material Design Red */
+  font-size: 0.8em;
+  margin-top: 3px;
+}
+
+/* Button Styles */
+button {
+  padding: 10px 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #1976d2;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #1565c0;
+}
+
+button[disabled] {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+button.cancel {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+button.cancel:hover {
+  background-color: #d6d6d6;
+}
+
+/* Dialog Title */
+.MuiDialogTitle-root {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.MuiDialogActions-root {
+  flex-direction: row;
+}
+
+/* Loading and Error States */
+p {
+  font-size: 0.9em;
+  margin: 0;
+  padding: 5px 0;
+}
+
+p.error {
+  color: #d32f2f;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  form {
+    padding: 0 10px;
+  }
+
+  button {
+    font-size: 0.8em;
+    padding: 8px 10px;
+  }
+
+  label {
+    font-size: 0.85em;
+  }
+
+  input,
+  select {
+    font-size: 0.85em;
+    padding: 8px;
+  }
+}

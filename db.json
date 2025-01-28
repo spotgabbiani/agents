@@ -1,0 +1,211 @@
+{
+  "agents": [
+    {
+      "id": "1",
+      "name": "Alice Wonderland",
+      "email": "alice.wonderland@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-26T10:35:22Z",
+      "department": "Sales",
+      "location": "New York"
+    },
+    {
+      "id": "2",
+      "name": "Bob Dylan",
+      "email": "bob.dylan@example.com",
+      "status": "Inactive",
+      "lastSeen": "2024-11-18T15:42:09Z",
+      "department": "Marketing",
+      "location": "Los Angeles"
+    },
+    {
+      "id": "3",
+      "name": "Charlie Chaplin",
+      "email": "charlie.chaplin@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-27T08:12:55Z",
+      "department": "Support",
+      "location": "London"
+    },
+    {
+      "id": "4",
+      "name": "David Bowie",
+      "email": "david.bowie@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-26T14:28:33Z",
+      "department": "Engineering",
+      "location": "Tokyo"
+    },
+    {
+      "id": "5",
+      "name": "Emma Stone",
+      "email": "emma.stone@example.com",
+      "status": "Inactive",
+      "lastSeen": "2024-11-20T11:05:17Z",
+      "department": "Human Resources",
+      "location": "Paris"
+    },
+    {
+      "id": "6",
+      "name": "Frank Sinatra",
+      "email": "frank.sinatra@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-27T09:45:01Z",
+      "department": "Finance",
+      "location": "Sydney"
+    },
+    {
+      "id": "7",
+      "name": "Grace Kelly",
+      "email": "grace.kelly@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-26T16:03:48Z",
+      "department": "Sales",
+      "location": "New York"
+    },
+    {
+      "id": "8",
+      "name": "Harry Potter",
+      "email": "harry.potter@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-27T07:38:22Z",
+      "department": "Marketing",
+      "location": "Los Angeles"
+    },
+    {
+      "id": "9",
+      "name": "Isaac Newton",
+      "email": "isaac.newton@example.com",
+      "status": "Inactive",
+      "lastSeen": "2024-11-19T13:21:44Z",
+      "department": "Support",
+      "location": "London"
+    },
+    {
+      "id": "10",
+      "name": "Jane Austen",
+      "email": "jane.austen@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-26T17:51:10Z",
+      "department": "Engineering",
+      "location": "Tokyo"
+    },
+    {
+      "id": "11",
+      "name": "John Lennon",
+      "email": "john.lennon@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-27T06:59:37Z",
+      "department": "Human Resources",
+      "location": "Paris"
+    },
+    {
+      "id": "12",
+      "name": "Katherine Hepburn",
+      "email": "katherine.hepburn@example.com",
+      "status": "Inactive",
+      "lastSeen": "2024-11-21T09:47:52Z",
+      "department": "Finance",
+      "location": "Sydney"
+    },
+    {
+      "id": "13",
+      "name": "Leonardo DiCaprio",
+      "email": "leonardo.dicaprio@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-27T11:23:15Z",
+      "department": "Sales",
+      "location": "New York"
+    },
+    {
+      "id": "14",
+      "name": "Marilyn Monroe",
+      "email": "marilyn.monroe@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-26T12:17:59Z",
+      "department": "Marketing",
+      "location": "Los Angeles"
+    },
+    {
+      "id": "15",
+      "name": "Nelson Mandela",
+      "email": "nelson.mandela@example.com",
+      "status": "Inactive",
+      "lastSeen": "2024-11-22T15:36:28Z",
+      "department": "Support",
+      "location": "London"
+    },
+    {
+      "id": "16",
+      "name": "Oprah Winfrey",
+      "email": "oprah.winfrey@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-27T13:01:42Z",
+      "department": "Engineering",
+      "location": "Tokyo"
+    },
+    {
+      "id": "17",
+      "name": "Paul McCartney",
+      "email": "paul.mccartney@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-26T18:40:06Z",
+      "department": "Human Resources",
+      "location": "Paris"
+    },
+    {
+      "id": "18",
+      "name": "Queen Elizabeth II",
+      "email": "queen.elizabeth@example.com",
+      "status": "Inactive",
+      "lastSeen": "2024-11-23T12:14:11Z",
+      "department": "Finance",
+      "location": "Sydney"
+    },
+    {
+      "id": "19",
+      "name": "Richard Branson",
+      "email": "richard.branson@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-27T14:15:29Z",
+      "department": "Sales",
+      "location": "New York"
+    },
+    {
+      "id": "20",
+      "name": "Serena Williams",
+      "email": "serena.williams@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-26T19:28:53Z",
+      "department": "Marketing",
+      "location": "Los Angeles"
+    },
+    {
+      "id": "21",
+      "name": "Stephen Hawking",
+      "email": "stephen.hawking@example.com",
+      "status": "Inactive",
+      "lastSeen": "2024-11-24T11:02:36Z",
+      "department": "Support",
+      "location": "London"
+    },
+    {
+      "id": "22",
+      "name": "Taylor Swift",
+      "email": "taylor.swift@example.com",
+      "status": "Active",
+      "lastSeen": "2024-11-27T15:50:11Z",
+      "department": "Engineering",
+      "location": "Tokyo"
+    },
+    {
+      "id": "ce01",
+      "name": "Arnoldo Montaño",
+      "email": "arnold_lombardy@hotmail.com",
+      "status": "Active",
+      "lastSeen": "",
+      "department": "Sales",
+      "location": "Chihuahua"
+    }
+  ]
+}

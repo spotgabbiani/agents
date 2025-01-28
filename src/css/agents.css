@@ -1,0 +1,30 @@
+.agent-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.agent-card h3 {
+  margin-top: 0;
+}
+
+.label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.active {
+  color: green;
+}
+
+.inactive {
+  color: red;
+}
+
+/* Responsive Styles (Example) */
+@media (max-width: 768px) {
+  .agent-card {
+    padding: 10px;
+  }
+}
