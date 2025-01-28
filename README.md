@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# Agents app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple react app that displays a list of Agents and has CRUD operations through an JSON server api, I used the material ui grid since this comes with pagination and filtering already and it's a solution that I have used in previous projects.
 
-Currently, two official plugins are available:
+I've implemented a Hook that takes care of the mutation of the Agent and it works for both create and update, as well as the form that does this. I used formik because it makes so much simpler the state management of the form and combined with yup you can implement the validations of the fields seamlessly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I've wrote a couple of tests for the hooks and my plan was to write some more for the components but I ran accross a nasty bug with babel and ran out of time.
 
-## Expanding the ESLint configuration
+Thank you for the opportunity and I hope that you like this enough for you to decide to work together.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+Use the package manager [yarn](https://yarnpkg.com/) to install all the dependencies.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+yarn install
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## How to run the app
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+First we need to run the api server, this is a simple JSON server
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+yarn run db
 ```
+
+And then we run the app
+
+```bash
+yarn run dev
+```
+
+## Pictures and video for showcase
+
+![Admin list](<src/assets/Captura de pantalla 2025-01-28 133733.png>)
+![Updating Agent](<src/assets/Captura de pantalla 2025-01-28 133747.png>)
+![Creating Agent](<src/assets/Captura de pantalla 2025-01-28 133758.png>)
+![Filtering the list](<src/assets/Captura de pantalla 2025-01-28 133819.png>)
+![Agent details page](<src/assets/Captura de pantalla 2025-01-28 133840.png>)
+<video controls src="src/assets/showcase.mp4" title="Agents app showcase"></video>
