@@ -37,4 +37,8 @@ yarn run dev
 ![Creating Agent](<src/assets/Captura de pantalla 2025-01-28 133758.png>)
 ![Filtering the list](<src/assets/Captura de pantalla 2025-01-28 133819.png>)
 ![Agent details page](<src/assets/Captura de pantalla 2025-01-28 133840.png>)
+
+## This is suppossed to show the video but for some reason it's not showing
+
+[Here's a direct link to download it](https://github.com/spotgabbiani/agents/blob/main/src/assets/showcase.mp4)
 <video controls src="src/assets/showcase.mp4" title="Agents app showcase"></video>
